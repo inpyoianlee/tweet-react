@@ -1,0 +1,44 @@
+.avatar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+.avatar-img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    
+}
+
+.avatar-img__pic {
+    border-radius: 50%;
+    margin: 3px;
+    width: 70px;
+    height: 70px;
+    
+}
+.names {
+  margin-left: 10px;
+}
+
+.avatar-screen-name {
+  font-weight: bold;
+}
+
+.right {
+  align-items: center;
+}
+.twitter-logo {
+
+}
+
+.twitter-logo__pic {
+    width: 70px;
+    height: 40px;
+}

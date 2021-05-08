@@ -1,0 +1,14 @@
+.likes-retweets-container {
+    display: flex;
+    width: 100%;
+}
+
+.likes {
+    margin: 5px;
+    color: rgba(0, 0, 0, 0.767);
+}
+
+.retweets {
+    margin: 5px;
+    color: rgba(0, 0, 0, 0.767);
+}

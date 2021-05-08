@@ -1,0 +1,28 @@
+.date-time__container {
+    display: flex;
+    margin: 1px;
+}
+
+.time {
+  margin-left: 2px;
+  margin-bottom: 3px;
+  color: rgba(0, 0, 0, 0.767);
+}
+
+.date {
+  margin-left: 6px;
+  margin-bottom: 3px;
+  color: rgba(0, 0, 0, 0.767);
+}
+
+.third-line-container {
+  display: flex;
+  border-bottom: 1px solid grey ;
+  justify-content: space-between;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.i-logo {
+  margin-bottom: 3px;
+}

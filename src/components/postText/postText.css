@@ -1,0 +1,11 @@
+.text-container{
+  width: 100%;
+}
+
+.text {
+    text-align: left;
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 5px;
+    
+}
