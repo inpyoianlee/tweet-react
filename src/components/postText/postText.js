@@ -1,13 +1,13 @@
 import './postText.css';
 
-const PostText = () => {
+const PostText = ( {postText} ) => {
     return (
         <div className="text-container">
             <div className="text">
-                2020 is what 2012 tried so hard to be
+                {postText}
             </div>
         </div>
     );
 }
 
-export default PostText;
+export default PostText; 

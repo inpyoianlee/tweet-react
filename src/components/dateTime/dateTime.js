@@ -1,14 +1,14 @@
 import './dateTime.css';
 
-const DateTime = () => {
+const DateTime = ({date, time}) => {
   return (
     <div className="third-line-container">
       <div className="date-time__container">
         <div className="time">
-          2:50 AM
+          {time}
         </div>
         <div className="date">
-          Apr 26, 2020
+          {date}
         </div>
       </div>
 

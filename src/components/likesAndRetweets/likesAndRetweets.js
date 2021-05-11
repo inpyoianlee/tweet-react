@@ -1,13 +1,13 @@
 import './likesAndRetweets.css';
 
-const LikesAndRetweets = () => {
+const LikesAndRetweets = ({likes, retweets}) => {
     return (
         <div className="likes-retweets-container">
             <div className="likes">
-                🤍 1M
+                {`🤍 ${likes}`} 
             </div>
             <div className="retweets">
-                🗨 233.6K people are Tweeting about this
+                {`🗨 ${retweets} people are Tweeting about this`}  
             </div>
         </div>
     );

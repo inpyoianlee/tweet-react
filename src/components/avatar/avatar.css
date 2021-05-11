@@ -17,6 +17,7 @@
 }
 
 .avatar-img__pic {
+    object-fit: cover;
     border-radius: 50%;
     margin: 3px;
     width: 70px;
@@ -33,9 +34,6 @@
 
 .right {
   align-items: center;
-}
-.twitter-logo {
-
 }
 
 .twitter-logo__pic {

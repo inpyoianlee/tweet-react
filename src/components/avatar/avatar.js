@@ -1,19 +1,19 @@
 import './avatar.css';
 
-const Avatar = () => {
+const Avatar = ({ img, handle ,userName }) => {
     return (
         <div className="avatar-container">
 
             <div className="left">
                 <div className="avatar-img">
-                    <img className="avatar-img__pic" src="https://i1.sndcdn.com/avatars-000545808042-2pqavs-t240x240.jpg" alt="avatar" />
+                    <img className="avatar-img__pic" src={img} alt="avatar" />
                 </div>
                 <div className="names">
                     <div className="avatar-screen-name">
-                        Ali San 🪐
+                        {handle}
                     </div>
                     <div className="avatar-user-name">
-                        @TheSanPlanet
+                        {userName}
                     </div>
                 </div>
             </div>
